@@ -6,7 +6,7 @@
   "scripts": {
     "checkin": "node scripts/checkin.js",
     "checkout": "node scripts/checkout.js",
-    "autoSchedule": "node autoSchedule.js"
+    "start": "node autoScheduler.js"
   },
   "keywords": [],
   "author": "",
