@@ -6,7 +6,8 @@
   "scripts": {
     "checkin": "node scripts/checkin.js",
     "checkout": "node scripts/checkout.js",
-    "start": "node autoScheduler.js"
+    "start": "node autoScheduler.js",
+    "postinstall": "npx playwright install chromium --with-deps"
   },
   "keywords": [],
   "author": "",
